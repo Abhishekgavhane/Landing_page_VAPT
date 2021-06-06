@@ -110,6 +110,60 @@
     background-color: #2F3061;
     color: white;
 }
+.footer img{
+    max-width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.formfield{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.application{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.application input,
+.application textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+}
+textarea{
+    resize: vertical;
+}
+button{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: .3s ease background-color;
+}
+button:hover{
+    background-color: #94cbe2;
+}
 
 
